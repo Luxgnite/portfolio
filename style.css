@@ -1,7 +1,7 @@
 /*------------------------ general ---------------------------*/
 @font-face {
     font-family: "Changa";
-    src: url('static/fonts/Changa-SemiBold.ttf');
+    src: url('fonts/Changa-SemiBold.ttf');
 }
 
 html {
@@ -43,7 +43,6 @@ nav ul{
 
 #up {
     margin-right: auto;
-    display: flex;
     flex-direction: row;
 }
 
@@ -87,8 +86,10 @@ nav ul{
 }
 
 nav li{
-    display: inline-block;
     margin: 0 2em;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 nav li a {
