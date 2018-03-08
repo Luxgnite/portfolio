@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="7.8015375mm"
+   height="6.7921185mm"
+   viewBox="0 0 7.8015375 6.7921185"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="mail.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.2"
+     inkscape:cx="10.970698"
+     inkscape:cy="3.3671469"
+     inkscape:document-units="mm"
+     inkscape:current-layer="Group"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-40.700421,-58.50275)">
+    <g
+       style="isolation:isolate"
+       id="g831"
+       transform="matrix(0.26458333,0,0,0.26458333,-16.966954,30.770713)">
+      <g
+         id="Group">
+        <g
+           id="g835">
+          <polygon
+             style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+             points="239.782,105.314 246.865,117.649 239.782,129.985 225.615,129.985 218.532,117.649 225.615,105.314 "
+             id="polygon815" />
+          <path
+             style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd"
+             inkscape:connector-curvature="0"
+             d="m 233.216,110.449 v 0 q 3.345,0 4.879,0.855 v 0 0 q 1.534,0.854 1.534,2.694 v 0 7.507 h -1.608 l -0.831,-0.929 v 0 q -0.684,0.576 -1.497,0.883 v 0 0 q -0.814,0.306 -1.682,0.306 v 0 0 q -1.627,0 -2.384,-0.734 v 0 0 q -0.758,-0.734 -0.758,-2.332 v 0 0 q 0,-1.189 0.453,-1.839 v 0 0 q 0.453,-0.651 1.525,-0.93 v 0 0 q 1.071,-0.278 3.03,-0.278 v 0 h 0.518 v -2.23 0 q -0.444,-0.074 -1.266,-0.13 v 0 0 q -0.823,-0.056 -1.599,-0.056 v 0 0 q -1.33,0 -2.199,0.167 v 0 0 q -0.869,0.168 -1.451,0.772 v 0 0 q -0.582,0.603 -0.582,1.848 v 0 3.791 0 q 0,1.357 0.555,2.016 v 0 0 q 0.554,0.66 1.395,0.836 v 0 0 q 0.841,0.177 2.134,0.177 v 0 h 3.493 v 1.635 0 q -1.903,0.372 -3.585,0.372 v 0 0 q -3.604,0 -5.563,-1.477 v 0 0 q -1.959,-1.478 -1.959,-5.138 v 0 -1.543 0 q 0,-3.456 1.969,-4.85 v 0 0 q 1.968,-1.393 5.479,-1.393 z m 1.83,9.068 v 0 q 0.757,0 1.044,-0.167 v 0 0 q 0.286,-0.168 0.286,-0.632 v 0 -1.357 h -1.182 v 0 q -0.758,0 -1.045,0.177 v 0 0 q -0.286,0.176 -0.286,0.659 v 0 1.32 z"
+             id="path817" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

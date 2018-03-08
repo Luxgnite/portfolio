@@ -1,0 +1,342 @@
+/*------------------------ general ---------------------------*/
+@font-face {
+    font-family: "Changa";
+    src: url('static/fonts/Changa-SemiBold.ttf');
+}
+
+html {
+    font-family: "Changa";
+}
+
+.flex-line {
+    display: flex;
+    flex-direction: row;
+}
+
+/*-------------------- navigation bar -----------------------*/
+
+svg {
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+    font-size: 1.5rem;
+    max-height: 7vh;
+    background-color: #E72F6E;
+    height: 100%;
+    display: flex;
+}
+
+nav ul{
+    margin: 0;
+    display: flex;
+    max-width: 1700px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#up {
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#up:hover
+{
+    transform: none;
+    background: none;
+}
+
+#up a:hover
+{
+    cursor: pointer;
+    transform: none;
+    color: white;
+}
+
+#linkedin,#mail{
+    min-width: 30px;
+    max-width: 50px;
+    display: flex;
+}
+
+#linkedin{
+    margin-left: 10px;
+}
+
+#linkedin a,#mail a{
+    display: flex;
+}
+
+#up polygon, path{
+    transition: all .2s ease-in-out;
+}
+
+#linkedin:hover polygon, #mail:hover polygon{
+    fill: rgb(255,255,255)
+}
+
+#linkedin:hover path, #mail:hover path{
+    fill: rgb(231,47,110);
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 2em;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+}
+
+nav li:hover{
+    background:white;
+    transform: scale(1.1) skew(-20deg);
+}
+
+nav a:hover{
+    color: #E72F6E;
+    background-color: transparent;
+    transform: scale(0.9) skew(20deg);
+}
+
+/*---------------------------- main ------------------------*/
+
+body {
+    margin: 0;
+}
+
+main {
+}
+
+section {
+    padding : 15vh 10vw 0 10vw;
+    font-size: 1.5rem;
+}
+
+h2 {
+    color : #353375;
+    margin: 2%;
+}
+
+h4 {
+    margin: 2%;
+   font-size: 1.2em;
+}
+
+/*------------------------- accueil -----------------------
+
+#accueil{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: url('img/stroke.svg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+#accueil h1{
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 3em;
+}
+*/
+
+/*----------------------- productions ---------------------*/
+
+#production{
+    margin: 0;
+    position: relative;
+    padding: 0;
+    padding-top: 5.5vh;
+    box-sizing: border-box;
+}
+
+#production h2{
+    margin-left: 10vw;
+}
+
+/*----------------------- prod_list -----------------------*/
+
+#list_prod
+{
+    transition: transform .2s ease-in-out;
+    transform-origin: right center;
+
+}
+
+#list_prod.show {
+    transform: scaleX(1);
+    overflow: visible;
+}
+
+#list_prod.hide {
+    /*transform: scaleX(0);
+    overflow: hidden;
+    height: 0;
+    min-height: 0;*/
+    position: absolute;
+    z-index: -1;
+    top: 3vh;
+
+    animation-delay: .5s;
+    animation-name: slidein;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+
+    to {
+        overflow: hidden;
+        width: 0;
+    }
+}
+
+#list_prod .prod
+{
+    position: relative;
+}
+
+#list_prod img{
+    width: 100%;
+    height: 100%;
+}
+
+#list_prod .more
+{
+    opacity: 0;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transition: opacity .2s ease-in-out;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+#list_prod .prod:hover .more
+{
+    opacity: 1;
+}
+
+#list_prod .more a
+{
+    background: #E72F6E;
+    color: white;
+    font-family: Changa;
+    font-size: 0.95em;
+    border: none;
+}
+
+#list_prod .more_btn
+{
+    width: 100px;
+    margin: auto;
+}
+
+#list_prod .more_btn path
+{
+    transition: all .2s ease-in-out;
+}
+
+#list_prod .more_btn:hover path
+{
+    fill: rgb(245, 49, 144);
+}
+
+/*----------------------- prod_focus ----------------------*/
+
+#focus_prod
+{
+    display: flex;
+    background-color: #E72F6E;
+    flex-direction: column;
+    color: white;
+    transform-origin: 0 50%;
+    transition: transform .3s ease-out;
+    padding : 5% 10% 5% 10%;
+}
+
+#focus_prod.hide
+{
+    transform: scaleX(0);
+    width: 0;
+    min-width: 0;
+    padding: 0;
+}
+
+#focus_prod.show
+{
+    transform: scaleX(1);
+    min-height: 90vh;
+}
+
+#focus_prod .flex-line{
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+#focus_prod h4{
+    font-size: 3em;
+    margin: 0;
+    align-self: center;
+}
+
+#focus_prod img{
+    width: 40vw;
+    margin: 2em;
+}
+
+#focus_prod .close_cross {
+    background: url('img/cross.svg') no-repeat;
+    background-size: contain;
+    height: 5vh;
+    width: 5vw;
+    position: absolute;
+    right: 0%;
+    top: 7%;
+}
+
+#focus_prod .close_cross:hover {
+    cursor: pointer;
+}
+
+/*-------------------------- about ------------------------*/
+
+#about div{
+    max-width: 150px;
+    margin: auto;
+}
+
+#about a>g>path {
+    transition: all .2s ease-in-out;
+}
+
+#about div:hover a>g>path {
+    fill: rgb(71, 69, 187);
+}
+
+/*------------------------- footer ------------------------*/
+
+footer {
+    min-height: 20vh;
+}
