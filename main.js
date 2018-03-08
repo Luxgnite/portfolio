@@ -66,7 +66,7 @@ function listProd(oData) {
         aElement.insertAdjacentHTML('beforeend', "<path d=\" M 353.461 76.315 L 395 76.315 L 418.436 116.908 L 441.872 157.5 L 418.436 198.092 L 395 238.685 L 352.795 238.685 L 223.667 238.685 L 181.795 238.685 L 158.358 198.092 L 134.922 157.5 L 158.358 116.908 L 181.795 76.315 L 223.667 76.315 L 353.461 76.315 Z \"\n" +
             "                                              fill=\"rgb(231,47,110)\"/>");
         aElement.insertAdjacentHTML('beforeend', "<text x=\"288.397\"\n" +
-            "                                              y=\"165\"\n" +
+            "                                              y=\"162.5\"\n" +
             "                                              fill=\"white\"\n" +
             "                                              font-size=\"2em\"\n" +
             "                                              text-anchor=\"middle\"\n" +
