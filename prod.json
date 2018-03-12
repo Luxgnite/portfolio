@@ -1,47 +1,47 @@
 {
-  "lol": {
-    "title": "LoL",
-    "image": "img/w8tchpresentation.jpg",
+  "a_light_in_dark": {
+    "title": "A Light in the Dark",
+    "image": "img/a_light_dark.PNG",
+    "text": "A game trailer about survival in space"
+  },
+  "bringstar": {
+    "title": "Bring Star",
+    "image": "img/bringstar.png",
+    "text": "A game about sending a communication to HQ before dying"
+  },
+  "monster_sea": {
+    "title": "Monster of the Sea",
+    "image": "img/monster_sea_ombre.png",
+    "text": "Un jeu de plateau asymétrique sur fond de chasse à la baleine"
+  },
+  "pacman": {
+    "title": "PacMan Détourné",
+    "image": "img/retro.png",
+    "text": "Reprise des mécaniques du jeu pac-man et de la narration environnementale pour parler du sujet de la drogue"
+  },
+  "fps": {
+    "title": "First Project Shooter",
+    "image": "img/fps.png",
     "text": "What an amazing work!"
   },
-  "lol1": {
-    "title": "LoL",
-    "image": "img/w8tchpresentation.jpg",
+  "jdr": {
+    "title": "Scénario JDR sur table",
+    "image": "img/jdr.PNG",
     "text": "What an amazing work!"
   },
-  "lol2": {
-    "title": "LoL",
-    "image": "img/w8tchpresentation.jpg",
+  "cv_motion": {
+    "title": "CV Motion Design",
+    "image": "img/motion_design.PNG",
     "text": "What an amazing work!"
   },
-  "lol3": {
-    "title": "LoL",
-    "image": "img/w8tchpresentation.jpg",
-    "text": "What an amazing work!"
+  "ld_labyrinthe": {
+    "title": "LD Labyrinthe Vertical Cyberpunk",
+    "image": "img/ld_cyberpunk.png",
+    "text": "Un travail sur le circuit éléctronique comme forme de labyrinthe"
   },
-  "lol4": {
-    "title": "LoL",
-    "image": "img/w8tchpresentation.jpg",
-    "text": "What an amazing work!"
-  },
-  "lol5": {
-    "title": "LoL",
-    "image": "img/w8tchpresentation.jpg",
-    "text": "What an amazing work!"
-  },
-  "lol6": {
-    "title": "LoL",
-    "image": "img/w8tchpresentation.jpg",
-    "text": "What an amazing work!"
-  },
-  "lol7": {
-    "title": "LoL",
-    "image": "img/w8tchpresentation.jpg",
-    "text": "What an amazing work!"
-  },
-  "lol8": {
-    "title": "LoL",
-    "image": "img/w8tchpresentation.jpg",
-    "text": "What an amazing work!"
+  "enter_dungeon": {
+    "title": "Enter the Dungeon!",
+    "image": "img/enter_dungeon.png",
+    "text": "A game made under Casio Graph 85"
   }
 }
