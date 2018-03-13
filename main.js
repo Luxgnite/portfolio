@@ -42,14 +42,17 @@ function listProd(oData) {
         newDiv.classList.add("prod");
         rowDiv.append(newDiv);
 
+        //Miniature sur la galerie
         newDiv.insertAdjacentHTML('beforeend', "<img src='" + prod[k].image + "'/>");
         var moreDiv = document.createElement("div");
         moreDiv.classList.add("more");
         newDiv.append(moreDiv);
 
+        //Texte sur hover de la miniature
         moreDiv.insertAdjacentHTML('beforeend', "<h4>" + prod[k].title + "</h4>");
-        moreDiv.insertAdjacentHTML('beforeend', "<p>" + prod[k].text + "</p>");
+        moreDiv.insertAdjacentHTML('beforeend', "<p>" + prod[k].small_descr + "</p>");
 
+        //Bouton "More"
         var moreBtn = document.createElement("div");
         moreBtn.classList.add("more_btn");
         moreBtn.dataset.prod = k;
@@ -101,8 +104,10 @@ function moreInfo(oData) {
     var newDiv = document.createElement("div");
     newDiv.classList.add("flex-line");
     focusProd.append(newDiv);
-    newDiv.insertAdjacentHTML('beforeend', "<img src='" + data.image + "'/>");
-    newDiv.insertAdjacentHTML('beforeend', "<p>" + data.text + "</p>");
+    //Le sample à montrer lors du détail
+    newDiv.insertAdjacentHTML('beforeend', "<div class='sample_wrapper'>" + data.sample + "</div>");
+    //La description détaillée du projet
+    newDiv.insertAdjacentHTML('beforeend', "<div class='description'>" + data.description + "</div>");
 }
 
 function shutFocus(e) {
