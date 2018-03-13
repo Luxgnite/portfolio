@@ -23,8 +23,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="111" column="234" lean-forward="false" selection-start-line="111" selection-start-column="234" selection-end-line="111" selection-end-column="234" />
+                <state relative-caret-position="359">
+                  <caret line="114" column="211" lean-forward="false" selection-start-line="114" selection-start-column="211" selection-end-line="114" selection-end-column="211" />
                   <folding>
                     <element signature="n#style#0;n#g#0;n#g#0;n#g#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#g#0;n#g#0;n#g#0;n#g#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -108,8 +108,8 @@
         <option value="$PROJECT_DIR$/img/plain/linkedin.svg" />
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/prod.json" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -119,7 +119,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="308" />
     <option name="y" value="-8" />
     <option name="width" value="960" />
@@ -227,15 +227,15 @@
       <workItem from="1520846685185" duration="599000" />
       <workItem from="1520851425689" duration="19173000" />
       <workItem from="1520929024595" duration="6098000" />
-      <workItem from="1520946161994" duration="100000" />
+      <workItem from="1520946161994" duration="778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160126000" />
+    <option name="totallyTimeSpent" value="160804000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.020833334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -663,8 +663,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="111" column="234" lean-forward="false" selection-start-line="111" selection-start-column="234" selection-end-line="111" selection-end-column="234" />
+        <state relative-caret-position="359">
+          <caret line="114" column="211" lean-forward="false" selection-start-line="114" selection-start-column="211" selection-end-line="114" selection-end-column="211" />
           <folding>
             <element signature="n#style#0;n#g#0;n#g#0;n#g#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#g#0;n#g#0;n#g#0;n#g#0;n#g#0;n#svg#0;n#a#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
