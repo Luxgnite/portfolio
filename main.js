@@ -49,6 +49,7 @@ function listProd(oData) {
         newDiv.append(moreDiv);
 
         //Texte sur hover de la miniature
+        moreDiv.insertAdjacentHTML('beforeend', "<span class='tag'>" + prod[k].tag + "</span>");
         moreDiv.insertAdjacentHTML('beforeend', "<h4>" + prod[k].title + "</h4>");
         moreDiv.insertAdjacentHTML('beforeend', "<p>" + prod[k].small_descr + "</p>");
 

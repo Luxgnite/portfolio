@@ -1,61 +1,70 @@
 {
   "monster_sea": {
-    "title": "[Game Design] Monster of the Sea",
+    "tag" : "[Game Design]",
+    "title": "Monster of the Sea",
     "image": "img/monster_sea_ombre.png",
     "small_descr": "To hunt or be hunted - that is the tide of this game!",
-    "description": "<p>Monster of the Sea is an asymetrical video game, meant to be played by 4 to 5 players.</p> <p>The game revolve around the whale hunting : one player will be playing as the whale, as the others will incarnate the hunters. </p> <p> As the whale, you will have the choice to either flee from the hunters, or kill them all. Whilst the hunters have to challenge their teamplay to suceed in killing or capturing the whale. </p> <p> Who is the real monster ? </p><p> You can get the rules <a href='docs/monster_sea_gdd.pdf'>here</a> and the GDD <a href='docs/monster_sea_rules.pdf'>here</a>.",
+    "description": "<p>Monster of the Sea is an asymetrical video game, meant to be played by 4 to 5 players.</p> <p>The mechanical approach for this game was using cards as token on a board, creating a material bridge between boardgame and cardgame.</p> <p>The game revolve around the whale hunting : one player will be playing as the whale, as the others will incarnate the hunters. </p> <p> As the whale, you will have the choice to either flee from the hunters, or kill them all. Whilst the hunters have to challenge their teamplay to suceed in killing or capturing the whale. </p> <p> Who is the real monster ? </p><p> You can get the rules <a href='docs/monster_sea_gdd.pdf'>here</a> and the GDD <a href='docs/monster_sea_rules.pdf'>here</a>.",
     "sample": "<iframe class='sample' src='https://www.youtube.com/embed/7Rri_LBJFJI' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
   },
   "bringstar": {
-    "title": "[Game Design] Bring Star",
+    "tag" : "[Game Design]",
+    "title": "Bring Star",
     "image": "img/bringstar.png",
     "small_descr": "A Global Game Jam project with transmission as its core theme",
     "description": "<p> 'You are a special agent who was shot in the oxygen tank while doing a crucial intel collection mission. <br/> Now, you must send the terrifying results of your investigations to the HQ before you die out of oxygen... That means 5 minutes.' </p> <p> In BringStar, you must transmit a capital information by using the satellite network BringStar. The thing is : you must configure every one of them! </p> <p> As a creative constraint while doing this project in the Global Game Jam, we had to make our game began where the others end, that is (in our case) out of the display window. </p> <p> You can access the game page <a href='https://globalgamejam.org/2018/games/bringstar'>here</a> get the GDD <a href='docs/gdd_bringstar.pdf'> here</a>.",
     "sample": "<iframe class='sample' src='https://www.youtube.com/embed/9KjK_a3TqpI' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
   },
   "a_light_in_dark":  {
-    "title": "[Sound Design] A Light in the Dark",
+    "tag" : "[Sound Design]",
+    "title": "A Light in the Dark",
     "small_descr": "A game trailer about a fictional survival game in space in Unreal Engine 4",
     "image": "img/a_light_dark.PNG",
-    "description": "<p> By making this trailer, we wanted to present a dark fantasy game. We choose an Alien vibe as we wanted to experiment with the feeling of 'fear' and 'unease'. </p> <p> As a group project, I was in charge with the programation of the 'game' (mostly camera shaking and character movement), the filming / montage of the trailer and the sound design. </p> <p> When composing the sound and music, I was attracted by the atmosphere that dark synth can bring, and goes with an ambiant soundscape type of music. </p> <p> However, even though it didn't made it in the trailer, I would love to experiment with the gameplay idea of this fictional game, which is a scientist alone on a planet, with no other weapon than is biochemical knowledge to defend himself. </p>",
+    "description": "<p> By making this trailer, we wanted to present a dark fantasy game. We choose an Alien vibe as we wanted to experiment with the feeling of 'fear' and 'unease'. </p> <p> As a group project, I was in charge with the programation of the 'game' (mostly camera shaking and character movement), the filming / montage of the trailer and the sound design. </p> <p> When composing the sound and music, I was attracted by the atmosphere that dark synth can bring, and goes with an ambiant soundscape type of music. Moreover, the retro aspect of the sound recall of the sci-fi movies of the 70's - 80's.</p> <p> However, even though it didn't made it in the trailer, I would love to experiment with the gameplay idea of this fictional game, which is a scientist alone on a planet, with no other weapon than is biochemical knowledge to defend himself. </p>",
     "sample": "<iframe class='sample' src='https://www.youtube.com/embed/MaDE9oY-RsU' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe> <iframe class='sample' src='https://www.youtube.com/embed/ksbqwwNEbMs' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
   },
   "utsura-man": {
-    "title": "[Solo] Utsura-Man",
+    "tag" : "[Solo]",
+    "title": "Utsura-Man",
     "image": "img/retro.png",
     "small_descr": "Pac-man mecanisms and environmental narration : that's this game.",
     "description": "<p> Narration in a pacman game is what I wanted to try when doing this production. </p> <p> Combining the game mecanics (like collecting the points or the ghosts) with environemental narration, I tried to make the player wonders about its actions.</p> <p> The theme of this game is drugs : and so I wanted the player to experiment the effects that drugs can have, like distortion of reality, paranoia or putting yourself in serious danger in order to obtain drugs. </p> ",
     "sample": "<iframe class='sample' src='https://www.youtube.com/embed/6ESe_sOb8aI' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
   },
   "jdr": {
-    "title": "[Game Design / Scenarist] Tabletop RPG scenario",
+    "tag" : "[Game Design / Scenarist]",
+    "title": "Tabletop RPG scenario",
     "image": "img/jdr.PNG",
     "small_descr": "A Twine work on tabletop RPG",
     "description": "With this project, I codified a way to manage my scenario as a Game Master along using Twine as a tool.</p> <p>Structurally, the tool is about showing the most important informations, those that are useful 'gameplaywise', that is : the type of scene (action, narration, social, ...), the objective of the scene, what character(s) or what skill(s) should be in the spotlight, and the different choices possibles. </p> <p>It indicates also how to set the tone of the scene with what music, or the description I should deliver</p> <p> You can get the render here <a href='docs/rpg_final.html'>here</a> and the Twine file <a href='docs/rpg_twine.html'>here</a>",
     "sample": "<img class='sample' src='img/jdr.PNG'/>"
   },
   "ld_labyrinthe": {
-    "title": "[Level Design] <br/> Vertical Electronic Labyrinth ",
+    "tag" : "[Level Design]",
+    "title": "Vertical Electronic Labyrinth ",
     "image": "img/ld_cyberpunk.png",
-    "small_descr": "Prototype of a vertical labyrinth with electronic printings",
-    "description": "<p> 'What could a labynrinth using electronic printings geometry could look like ?' <br/> This is with this original idea that I started this level design prototype.</p> <p> By further exploring the idea, I came with the thought that I wanted to add a cyberpunk theme to it : so the idea finally cames out as 'a cyberpunk city electronic printing labyrinth' (breath). </p> <p>I was willing to explore also the vertical structure, as I have fall in love with levels such as Blighttown from Dark Soul, which I find wonderfully crafted.</p>  ",
+    "small_descr": "Prototype of a vertical labyrinth having shape of electronic printings pattern",
+    "description": "<p> 'What could a labyrinth using electronic printings geometry could look like ?' <br/> This is with this original idea that I started this level design prototype.</p> <p> By further exploring the idea, I came with the thought that I wanted to add a cyberpunk theme to it : so the idea finally cames out as 'a cyberpunk city electronic printing labyrinth' (breath). </p> <p>I was willing to explore also the vertical structure, as I have fall in love with levels such as Blighttown from Dark Soul, which I find wonderfully and tastefully crafted.</p>  ",
     "sample": "<div class='sketchfab-embed-wrapper'><iframe class='sample' src='https://sketchfab.com/models/64a8e14b921d450b8e79ed5a05352d6b/embed' frameborder='0' allowvr allowfullscreen mozallowfullscreen='true' webkitallowfullscreen='true' onmousewheel=''></iframe> <p style='font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;'>  </div>"
   },
   "fps": {
-    "title": "[Programer] First Project Shooter",
+    "tag" : "[Programer]",
+    "title": "First Project Shooter",
     "image": "img/fps.png",
     "small_descr": "An LAN FPS Unity game",
     "description": "<p>This project had as goal to master the networking aspect along with the 3D aspect of Unity (World Building, Raycast, ...). </p> <p> The result is a pretty rough game with no server (you need to make VLAN to actually play it), but functional.</p>",
     "sample": "<iframe class='sample' src='https://www.youtube.com/embed/QpqFpgw6Nr8' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>"
   },
   "enter_dungeon": {
-    "title": "[Solo] Enter the Dungeon!",
+    "tag" : "[Solo]",
+    "title": "Enter the Dungeon!",
     "image": "img/enter_dungeon.png",
     "small_descr": "An exploration game made under Casio Graph 85",
     "description": "<p> With this game, I tried to achieve a sense of perspective (a 3D labyrinth) in a game exclusively in 2D due to the machine limitations, combined with procedurally generated dungeons.</p> <p> I was inspired by old dungeon crawler games like Dungeon Master or Digital Devil Story : Megami Tensei.</p> <p> While the game remain pretty simple, it gives the old school feeling of dungeon crawling, where you had to keep track of your whereabouts! </p>",
     "sample": "<iframe class='sample' src='https://www.youtube.com/embed/Cf1czjEeDU4' frameborder='0' allow='autoplay; encrypted-m edia' allowfullscreen></iframe>"
   },
   "cv_motion": {
+    "tag" : "[Graphic]",
     "title": "CV Motion Design",
     "image": "img/motion_design.PNG",
     "small_descr": "Motion Design of my old Curriculum Vitae",
